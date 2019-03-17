@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://le4ker.github.io"
+url: "https://jpahullo.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,7 +12,7 @@ url: "https://le4ker.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: 
 
 # Google tracking id
 
@@ -28,11 +28,11 @@ force-https: True
 # HTML Head #
 #############
 
-lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+lang: "es_ES"
+author: "Jordi Pujol Ahulló"
+title: "Jordi Pujol Ahulló"
+description: "Hablo de cosas que me pasan, pero siempre con un toque particular. Soy humano y de profesión ingeniero en informática."
+keywords: "jordi, pujol, ahullo, jpahullo, personal, blog"
 favicon: "/img/favicon.ico"
 
 ################
@@ -55,10 +55,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "La agilidad, como la felicidad, se trata de un camino y no una meta."
+  - text: "La mejora continua, no es algo que empieces hoy y acabes mañana. Sólo ha hecho que empezar!"
 
-me-img: "/img/jetpacktocat.png"
+# me-img: "/img/jetpacktocat.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -71,14 +71,14 @@ me-img: "/img/jetpacktocat.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-# me-img: "https://github.com/user_name.png?size=500"
+me-img: "https://github.com/jpahullo.png?size=500"
 
 # To use gravatar profile pic uncomment the following line and replace 'email_hash'
 # with your gravatar profile email hash.
 # You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
 # just enter your email and it will generate the hash.
 
-# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+# me-img: "https://www.gravatar.com/avatar/7e47e9a04e5f1c594126b10a4b66b5fe?s=500"
 
 ##############################
 # Color the browser elements #
@@ -111,18 +111,18 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+email-share: False
+fb-share: False
+twitter-share: False
+linkedin-share: False
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
-disqus-shortname: "personal-jekyll-theme"
+#disqus-shortname: "jpahullo"
 
 syntax-highlight: True
 
@@ -130,23 +130,23 @@ syntax-highlight: True
 # Timeline #
 ############
 
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
-
-# First image of the Timeline
-
-timeline-img: "/img/timeline/default.png"
+#events:
+#  - image: "/img/timeline/spidertocat.png"
+#    date: "September 2013 - Today"
+#    description: "Saving the neighborhood!"
+#  - image: "/img/timeline/baracktocat.jpg"
+#    date: "September 2007 - August 2013"
+#    description: "Started coding"
+#
+## First image of the Timeline
+#
+#timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+# email: "jpahullo@gmail.com"
 
 ################
 # Author Blurb #
@@ -156,22 +156,22 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "Hablo de cosas que me pasan, pero siempre con un toque particular. Soy humano y de profesión ingeniero en informática."
+author_blurb_image: "/img/author.jpeg"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
+#  - title: "facebook"
+#    url: "https://facebook.com/"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/jpahullo"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/jpahullo"
+#  - title: "bitcoin"
+#    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
 
@@ -185,9 +185,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+#keybase-username: johnsmith
+#keybase-in-social: True
+#keybase-in-footer: True
 
 ################################################################################
 
@@ -196,14 +196,14 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  Sobre mi: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+#  Timeline: 'timeline'
+  Contacto: 'contact'
 
 # Exclusion list from the generated _site
 
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts", ".idea"]
 
 # Pagination path
 
@@ -214,6 +214,28 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
+  - jekyll-seo-tag
+
+logo: "/img/author.jpeg"
+twitter_username: jpahullo
+github_username: jpahullo
+linkedin_username: jpahullo
+
+# SEO settings
+twitter:
+  username: jpahullo
+  card: summary
+
+permalink: /:year/:month/:day/:title:output_ext
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: /img/jordi.jpeg
+      excerpt_separator: <!--excerpt-->
